@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:androids="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    androids:layout_width="match_parent"
+            androids:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        tools:context=".MapsActivity" />
+
+    <RelativeLayout
+        androids:layout_width="match_parent"
+        androids:layout_height="190dp"
+        androids:layout_alignParentStart="true"
+        androids:layout_marginStart="0dp"
+        androids:layout_marginTop="0dp"
+        androids:background="#fff">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        androids:layout_width="match_parent"
+        androids:layout_height="50dp"
+        androids:layout_marginTop="50dp"
+        androids:layout_marginRight="20dp"
+        androids:layout_marginLeft="20dp"
+        androids:background="@drawable/white_border"
+        androids:id="@+id/relLayout1">
+        <ImageView
+            androids:layout_width="15dp"
+            androids:layout_height="15dp"
+            androids:id="@+id/ic_magnify"
+            androids:layout_centerVertical="true"
+            androids:layout_marginLeft="10dp"
+            androids:src="@drawable/origin"/>
+        <EditText
+            androids:layout_width="match_parent"
+            androids:layout_height="match_parent"
+            androids:layout_toRightOf="@+id/ic_magnify"
+            androids:layout_centerVertical="true"
+            androids:textSize="15dp"
+            androids:layout_marginLeft="5dp"
+            androids:textColor="#11b6fd"
+            androids:id="@+id/input_search"
+            androids:hint="Starting point"
+            androids:background="@android:color/transparent"
+            androids:imeOptions="actionSearch"/>
+    </RelativeLayout>
+        <RelativeLayout
+            androids:layout_width="match_parent"
+            androids:layout_height="50dp"
+            androids:layout_marginTop="110dp"
+            androids:layout_marginRight="20dp"
+            androids:layout_marginLeft="20dp"
+
+            androids:background="@drawable/white_border"
+            androids:id="@+id/relLayout2">
+            <ImageView
+                androids:layout_width="15dp"
+                androids:layout_height="15dp"
+                androids:id="@+id/ic_magnify2"
+                androids:layout_centerVertical="true"
+                androids:layout_marginLeft="10dp"
+                androids:src="@drawable/dest"
+                />
+
+
+            <EditText
+                androids:id="@+id/input_search2"
+                androids:layout_width="match_parent"
+                androids:layout_height="match_parent"
+                androids:layout_marginLeft="5dp"
+                androids:layout_marginTop="0dp"
+                androids:layout_toRightOf="@+id/ic_magnify2"
+                androids:hint="Destination"
+                androids:imeOptions="actionSearch"
+                androids:textColor="#000"
+                androids:background="@android:color/transparent"
+                androids:textSize="15dp"
+               />
+
+
+        </RelativeLayout>
+    <RelativeLayout
+        androids:layout_width="match_parent"
+        androids:layout_height="190dp">
+
+        <TextView
+            androids:id="@+id/textView3"
+            androids:layout_width="319dp"
+            androids:layout_height="80dp"
+            androids:layout_alignParentStart="true"
+            androids:layout_alignParentTop="true"
+            androids:layout_alignParentEnd="true"
+            androids:layout_marginStart="43dp"
+            androids:layout_marginTop="18dp"
+            androids:layout_marginEnd="22dp"
+            androids:fontFamily="@font/roboto_medium"
+            androids:text="Find the transit to your destination!"
+            androids:textColor="#1fa9a2"
+            androids:textSize="20sp" />
+    </RelativeLayout>
+<RelativeLayout
+    androids:layout_width="match_parent"
+    androids:layout_height="190dp">
+
+    <ImageView
+        androids:id="@+id/next"
+        androids:layout_width="30dp"
+        androids:layout_height="30dp"
+        androids:layout_alignParentStart="true"
+        androids:layout_alignParentTop="true"
+        androids:layout_alignParentEnd="true"
+        androids:layout_marginStart="335dp"
+        androids:layout_marginTop="120dp"
+        androids:layout_marginEnd="25dp"
+        androids:src="@drawable/next" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

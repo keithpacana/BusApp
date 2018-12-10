@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentlayout"
+    android:background="#fff"
+    >
+
+    <TextView
+        android:id="@+id/bus_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="66dp"
+        android:text="Bus Name"
+        android:textColor="#1fa9a2"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/to_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/towards" />
+
+    <TextView
+        android:id="@+id/to_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="-133dp"
+        android:text="Towards" />
+
+
+    <TextView
+        android:id="@+id/bus_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="200dp"
+        android:text="Bus Name"
+        android:textColor="#1fa9a2"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/bus_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="320dp"
+        android:text="Bus Name"
+        android:textColor="#1fa9a2"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/to_icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="258dp"
+        android:background="@drawable/towards" />
+
+    <ImageView
+        android:id="@+id/to_icon3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="373dp"
+        android:background="@drawable/towards" />
+
+    <TextView
+        android:id="@+id/to_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginBottom="-133dp"
+        android:text="Towards" />
+
+    <TextView
+        android:id="@+id/to_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="374dp"
+        android:layout_marginBottom="-133dp"
+        android:text="Towards" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="The Buses to your destination:"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="160dp"
+        app:srcCompat="?android:attr/textColorLink" />
+
+</RelativeLayout>
